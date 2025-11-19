@@ -1,0 +1,280 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic:
+    - complementary [ref=e4]:
+      - navigation "Sidepanel" [ref=e5]:
+        - generic [ref=e6]:
+          - link "client brand banner" [ref=e7] [cursor=pointer]:
+            - /url: https://www.orangehrm.com/
+            - img "client brand banner" [ref=e9]
+          - text: 
+        - generic [ref=e10]:
+          - generic [ref=e11]:
+            - generic [ref=e12]:
+              - textbox "Search" [ref=e15]
+              - button "" [ref=e16] [cursor=pointer]:
+                - generic [ref=e17]: 
+            - separator [ref=e18]
+          - list [ref=e19]:
+            - listitem [ref=e20]:
+              - link "Admin" [ref=e21] [cursor=pointer]:
+                - /url: /web/index.php/admin/viewAdminModule
+                - generic [ref=e24]: Admin
+            - listitem [ref=e25]:
+              - link "PIM" [ref=e26] [cursor=pointer]:
+                - /url: /web/index.php/pim/viewPimModule
+                - generic [ref=e40]: PIM
+            - listitem [ref=e41]:
+              - link "Time" [ref=e42] [cursor=pointer]:
+                - /url: /web/index.php/time/viewTimeModule
+                - generic [ref=e48]: Time
+            - listitem [ref=e49]:
+              - link "Recruitment" [ref=e50] [cursor=pointer]:
+                - /url: /web/index.php/recruitment/viewRecruitmentModule
+                - generic [ref=e56]: Recruitment
+            - listitem [ref=e57]:
+              - link "My Info" [ref=e58] [cursor=pointer]:
+                - /url: /web/index.php/pim/viewMyDetails
+                - generic [ref=e64]: My Info
+            - listitem [ref=e65]:
+              - link "Performance" [ref=e66] [cursor=pointer]:
+                - /url: /web/index.php/performance/viewPerformanceModule
+                - generic [ref=e74]: Performance
+            - listitem [ref=e75]:
+              - link "Dashboard" [ref=e76] [cursor=pointer]:
+                - /url: /web/index.php/dashboard/index
+                - generic [ref=e79]: Dashboard
+            - listitem [ref=e80]:
+              - link "Directory" [ref=e81] [cursor=pointer]:
+                - /url: /web/index.php/directory/viewDirectory
+                - generic [ref=e84]: Directory
+            - listitem [ref=e85]:
+              - link "Maintenance" [ref=e86] [cursor=pointer]:
+                - /url: /web/index.php/maintenance/viewMaintenanceModule
+                - generic [ref=e90]: Maintenance
+            - listitem [ref=e91]:
+              - link "Claim" [ref=e92] [cursor=pointer]:
+                - /url: /web/index.php/claim/viewClaimModule
+                - img [ref=e95]
+                - generic [ref=e99]: Claim
+            - listitem [ref=e100]:
+              - link "Buzz" [ref=e101] [cursor=pointer]:
+                - /url: /web/index.php/buzz/viewBuzz
+                - generic [ref=e104]: Buzz
+    - banner [ref=e105]:
+      - generic [ref=e106]:
+        - generic [ref=e107]:
+          - text: 
+          - heading "PIM" [level=6] [ref=e109]
+        - link "Upgrade" [ref=e111]:
+          - /url: https://orangehrm.com/open-source/upgrade-to-advanced
+          - button "Upgrade" [ref=e112] [cursor=pointer]: Upgrade
+        - list [ref=e118]:
+          - listitem [ref=e119]:
+            - generic [ref=e120] [cursor=pointer]:
+              - img "profile picture" [ref=e121]
+              - paragraph [ref=e122]: Ayshath jamal
+              - generic [ref=e123]: 
+      - navigation "Topbar Menu" [ref=e125]:
+        - list [ref=e126]:
+          - button "" [ref=e128] [cursor=pointer]:
+            - generic [ref=e129]: 
+  - generic [ref=e130]:
+    - generic [ref=e134]:
+      - generic [ref=e135]:
+        - generic [ref=e136]:
+          - heading "Ayshath jamal" [level=6] [ref=e138]
+          - img "profile picture" [ref=e141] [cursor=pointer]
+        - tablist [ref=e142]:
+          - tab "Personal Details" [ref=e143]:
+            - link "Personal Details" [ref=e144] [cursor=pointer]:
+              - /url: /web/index.php/pim/viewPersonalDetails/empNumber/7
+          - tab "Contact Details" [ref=e145]:
+            - link "Contact Details" [ref=e146] [cursor=pointer]:
+              - /url: /web/index.php/pim/contactDetails/empNumber/7
+          - tab "Emergency Contacts" [ref=e147]:
+            - link "Emergency Contacts" [ref=e148] [cursor=pointer]:
+              - /url: /web/index.php/pim/viewEmergencyContacts/empNumber/7
+          - tab "Dependents" [ref=e149]:
+            - link "Dependents" [ref=e150] [cursor=pointer]:
+              - /url: /web/index.php/pim/viewDependents/empNumber/7
+          - tab "Immigration" [ref=e151]:
+            - link "Immigration" [ref=e152] [cursor=pointer]:
+              - /url: /web/index.php/pim/viewImmigration/empNumber/7
+          - tab "Job" [ref=e153]:
+            - link "Job" [ref=e154] [cursor=pointer]:
+              - /url: /web/index.php/pim/viewJobDetails/empNumber/7
+          - tab "Salary" [ref=e155]:
+            - link "Salary" [ref=e156] [cursor=pointer]:
+              - /url: /web/index.php/pim/viewSalaryList/empNumber/7
+          - tab "Report-to" [ref=e157]:
+            - link "Report-to" [ref=e158] [cursor=pointer]:
+              - /url: /web/index.php/pim/viewReportToDetails/empNumber/7
+          - tab "Qualifications" [ref=e159]:
+            - link "Qualifications" [ref=e160] [cursor=pointer]:
+              - /url: /web/index.php/pim/viewQualifications/empNumber/7
+          - tab "Memberships" [ref=e161]:
+            - link "Memberships" [ref=e162] [cursor=pointer]:
+              - /url: /web/index.php/pim/viewMemberships/empNumber/7
+      - generic [ref=e163]:
+        - generic [ref=e164]:
+          - heading "Personal Details" [level=6] [ref=e165]
+          - separator [ref=e166]
+          - generic [ref=e167]:
+            - generic [ref=e171]:
+              - generic [ref=e173]: Employee Full Name*
+              - generic [ref=e174]:
+                - textbox "First Name" [ref=e177]: Ayshath
+                - textbox "Middle Name" [ref=e180]: binth
+                - textbox "Last Name" [active] [ref=e183]: jamalAdmin
+            - separator [ref=e184]
+            - generic [ref=e185]:
+              - generic [ref=e186]:
+                - generic [ref=e188]:
+                  - generic [ref=e190]: Employee Id
+                  - textbox [ref=e192]: "02"
+                - generic [ref=e194]:
+                  - generic [ref=e196]: Other Id
+                  - textbox [ref=e198]: "4957"
+              - generic [ref=e199]:
+                - generic [ref=e201]:
+                  - generic [ref=e203]: Driver's License Number
+                  - textbox [ref=e205]: 567wdxx1
+                - generic [ref=e207]:
+                  - generic [ref=e209]: License Expiry Date
+                  - generic [ref=e212]:
+                    - textbox "dd-mm-yyyy" [ref=e213]: 12-12-2025
+                    - generic [ref=e214] [cursor=pointer]: 
+            - separator [ref=e215]
+            - generic [ref=e216]:
+              - generic [ref=e217]:
+                - generic [ref=e219]:
+                  - generic [ref=e221]: Nationality
+                  - generic [ref=e224] [cursor=pointer]:
+                    - generic [ref=e225]: Indian
+                    - generic [ref=e227]: 
+                - generic [ref=e229]:
+                  - generic [ref=e231]: Marital Status
+                  - generic [ref=e234] [cursor=pointer]:
+                    - generic [ref=e235]: Single
+                    - generic [ref=e237]: 
+              - generic [ref=e238]:
+                - generic [ref=e240]:
+                  - generic [ref=e242]: Date of Birth
+                  - generic [ref=e245]:
+                    - textbox "dd-mm-yyyy" [ref=e246]: 10-04-2002
+                    - generic [ref=e247] [cursor=pointer]: 
+                - generic [ref=e249]:
+                  - generic [ref=e251]: Gender
+                  - generic [ref=e252]:
+                    - generic [ref=e256] [cursor=pointer]:
+                      - radio "Male" [ref=e257]
+                      - text: Male
+                    - generic [ref=e262] [cursor=pointer]:
+                      - radio "Female" [checked] [ref=e263]
+                      - text: Female
+            - separator [ref=e265]
+            - generic [ref=e266]:
+              - paragraph [ref=e267]: "* Required"
+              - button "Save" [ref=e268] [cursor=pointer]
+        - generic [ref=e269]:
+          - separator [ref=e270]
+          - generic [ref=e271]:
+            - heading "Custom Fields" [level=6] [ref=e272]
+            - separator [ref=e273]
+            - generic [ref=e274]:
+              - generic [ref=e276]:
+                - generic [ref=e278]:
+                  - generic [ref=e280]: Blood Type
+                  - generic [ref=e283] [cursor=pointer]:
+                    - generic [ref=e284]: A+
+                    - generic [ref=e286]: 
+                - generic [ref=e288]:
+                  - generic [ref=e290]: Test_Field
+                  - textbox [ref=e292]: "446"
+              - separator [ref=e293]
+              - button "Save" [ref=e295] [cursor=pointer]
+        - generic [ref=e296]:
+          - separator [ref=e297]
+          - generic [ref=e299]:
+            - heading "Attachments" [level=6] [ref=e300]
+            - button " Add" [ref=e301] [cursor=pointer]:
+              - generic [ref=e302]: 
+              - text: Add
+          - generic [ref=e303]:
+            - separator [ref=e304]
+            - generic [ref=e306]: (2) Records Found
+          - table [ref=e308]:
+            - rowgroup [ref=e309]:
+              - row " File Name Description Size Type Date Added Added By Actions" [ref=e310]:
+                - columnheader "" [ref=e311]:
+                  - generic [ref=e313] [cursor=pointer]:
+                    - checkbox "" [ref=e314]
+                    - generic [ref=e316]: 
+                - columnheader "File Name" [ref=e317]
+                - columnheader "Description" [ref=e318]
+                - columnheader "Size" [ref=e319]
+                - columnheader "Type" [ref=e320]
+                - columnheader "Date Added" [ref=e321]
+                - columnheader "Added By" [ref=e322]
+                - columnheader "Actions" [ref=e323]
+            - rowgroup [ref=e324]:
+              - row " test.png test 53.16 kB image/png 06-02-2024 Admin   " [ref=e326]:
+                - cell "" [ref=e327]:
+                  - generic [ref=e330] [cursor=pointer]:
+                    - checkbox "" [ref=e331]
+                    - generic [ref=e333]: 
+                - cell "test.png" [ref=e334]:
+                  - generic [ref=e335]: test.png
+                - cell "test" [ref=e336]:
+                  - generic [ref=e337]: test
+                - cell "53.16 kB" [ref=e338]:
+                  - generic [ref=e339]: 53.16 kB
+                - cell "image/png" [ref=e340]:
+                  - generic [ref=e341]: image/png
+                - cell "06-02-2024" [ref=e342]:
+                  - generic [ref=e343]: 06-02-2024
+                - cell "Admin" [ref=e344]:
+                  - generic [ref=e345]: Admin
+                - cell "  " [ref=e346]:
+                  - generic [ref=e347]:
+                    - button "" [ref=e348] [cursor=pointer]:
+                      - generic [ref=e349]: 
+                    - button "" [ref=e350] [cursor=pointer]:
+                      - generic [ref=e351]: 
+                    - button "" [ref=e352] [cursor=pointer]:
+                      - generic [ref=e353]: 
+              - row " ms.pdf 322.13 kB application/pdf 19-11-2025 Admin   " [ref=e355]:
+                - cell "" [ref=e356]:
+                  - generic [ref=e359] [cursor=pointer]:
+                    - checkbox "" [ref=e360]
+                    - generic [ref=e362]: 
+                - cell "ms.pdf" [ref=e363]:
+                  - generic [ref=e364]: ms.pdf
+                - cell [ref=e365]
+                - cell "322.13 kB" [ref=e366]:
+                  - generic [ref=e367]: 322.13 kB
+                - cell "application/pdf" [ref=e368]:
+                  - generic [ref=e369]: application/pdf
+                - cell "19-11-2025" [ref=e370]:
+                  - generic [ref=e371]: 19-11-2025
+                - cell "Admin" [ref=e372]:
+                  - generic [ref=e373]: Admin
+                - cell "  " [ref=e374]:
+                  - generic [ref=e375]:
+                    - button "" [ref=e376] [cursor=pointer]:
+                      - generic [ref=e377]: 
+                    - button "" [ref=e378] [cursor=pointer]:
+                      - generic [ref=e379]: 
+                    - button "" [ref=e380] [cursor=pointer]:
+                      - generic [ref=e381]: 
+    - generic [ref=e382]:
+      - paragraph [ref=e383]: OrangeHRM OS 5.7
+      - paragraph [ref=e384]:
+        - text: © 2005 - 2025
+        - link "OrangeHRM, Inc" [ref=e385] [cursor=pointer]:
+          - /url: http://www.orangehrm.com
+        - text: . All rights reserved.
+```

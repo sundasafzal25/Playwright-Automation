@@ -23,7 +23,7 @@ test('Keyboard Actions', async({page})=> {
     await page.waitForTimeout(5000);
 })
 
-test.only('Mouse Double Click', async({page})=> {
+test ('Mouse Double Click', async({page})=> {
     await page.goto('https://testautomationpractice.blogspot.com/');
     //wait for the document loaded fully 
     await page.waitForLoadState('domcontentloaded');

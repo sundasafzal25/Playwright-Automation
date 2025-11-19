@@ -1,0 +1,4 @@
+--Accessing Frame 3 using 1st Approach
+✅ Frame accessed using url & value entered: Hello from approach 1
+--Accessing Frame 3 using 2nd approach
+✅ Frame Accessed using approach 2 & Value is: Hello from approach 2

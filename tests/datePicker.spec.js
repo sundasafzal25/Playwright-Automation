@@ -75,7 +75,7 @@ test("Print all dates from current month", async ({ page }) => {
   await expect(allDateElements.length).toBeGreaterThan(0);
 });
 
-test.only("Selected Date", async({page})=> {
+test ("Selected Date", async({page})=> {
 const targetYear = '2025';
     const targetDate = '30';
     const targetMonth = 'October';

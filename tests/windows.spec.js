@@ -14,7 +14,7 @@ test('Handle Multiple Pages', async({})=> {
     await expect(page2).toHaveTitle('Human Resources Management Software | HRMS | OrangeHRM');
 
 })
-test.only('Book a Free Demo', async({page}) =>{
+test ('Book a Free Demo', async({page}) =>{
     test.setTimeout(60000); 
 await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
 await expect(page).toHaveTitle('OrangeHRM');
@@ -37,7 +37,7 @@ await newpage.getByRole('textbox', { name: 'Full Name' }).click();
   await newpage.getByRole('textbox', { name: 'Job title' }).click();
   await newpage.getByRole('textbox', { name: 'Job title' }).fill('qa engineer');
   await newpage.getByLabel('No Of Employees').selectOption('11 - 50');
-  console.log("⚠️ CAPTCHA step bypassed for automation.");
+  console.log("⚠️ - CAPTCHA step bypassed for automation.");
   // await newpage.locator('iframe[name="a-uy517tyox4pk"]').contentFrame().getByRole('checkbox', { name: 'I\'m not a robot' }).click();
   await newpage.getByRole('button', { name: 'Get a Free Demo' }).click();
 

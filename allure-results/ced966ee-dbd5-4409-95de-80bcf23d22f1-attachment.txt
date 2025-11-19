@@ -1,0 +1,2 @@
+Initial State: Column A text was 'A' , Column B text was 'B' 
+After State: Column A Text is 'B', Column B text is 'A'
