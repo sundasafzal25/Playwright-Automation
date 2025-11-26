@@ -1,7 +1,7 @@
 import {test,expect} from '@playwright/test'; 
-import {LoginPage} from '../pages/login.js';  
-import {LogoutPage} from '../pages/logout.js';
-import {ProductPage} from '../pages/product.js';
+import {LoginPage} from '../../pages/POM Files/login.js';  
+import {LogoutPage} from '../../pages/POM Files/logout.js';
+import {ProductPage} from '../../pages/POM Files/product.js';
 const TEST_USERNAME = 'sundas1';
 const TEST_PASSWORD = 'sundas123';
 
