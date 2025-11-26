@@ -1,3 +1,0 @@
-Before Each Hook Executed: Login
-TestCase 1 is Executing : Select phones
-After Each Hook Executed: Logout

@@ -1,3 +1,0 @@
-Before Each Hook Executed: Login
-TestCase 2 is Executing : Select Laptops
-After Each Hook Executed: Logout

@@ -1,0 +1,123 @@
+SauceDemo Automation Testing Documentation
+1. Project Overview
+
+Project: SauceDemo Functional Automation
+Framework: Playwright + Page Object Model (POM)
+Reporting: Allure Reports
+Repository: Git (code committed)
+
+Purpose:
+This project automates functional test scenarios for the SauceDemo application. The framework is designed to validate core features including login, product management, cart operations, checkout, and logout, with results captured using Allure reports.
+
+2. Test Cases
+S.No	Test Case	Description	Acceptance Criteria
+1	Login Success	Verify valid user can login successfully	User lands on Inventory page
+2	Login Failure	Verify invalid credentials display error	Error message is shown on login page
+3	Add Product to Cart	Add a product to the cart	Product is added and cart count updated
+4	Remove Product from Cart	Remove product from cart	Product removed and cart count decreased
+5	Verify Cart Count	Check total items in cart after multiple additions	Cart badge shows correct count
+6	Sort Products	Sort products by Name Z to A	First product matches expected sorted value
+7	Validate Product Details	Verify product details page	Product title and description visible
+8	Checkout with Missing Info	Attempt checkout with missing information	Error message displayed for missing fields
+9	Successful Checkout	Complete checkout process with valid info	Order completed successfully and confirmation page displayed
+10	Logout	Logout from application	User redirected to login page
+3. Requirements Covered
+
+User authentication (login success/failure)
+
+Product management (add/remove items, sort, validate details)
+
+Cart operations and verification
+
+Checkout process validation
+
+Logout functionality
+
+Reporting and traceability using Allure
+
+4. Framework Explanation
+
+Structure:
+
+project-root/
+├─ tests/
+│  ├─ Screenshots/
+│  ├─ SauceDemo.spec.js
+├─ pages/
+│  ├─ loginPage.js
+│  ├─ inventoryPage.js
+│  ├─ productDetailsPage.js
+│  ├─ cartPage.js
+│  ├─ checkoutInfoPage.js
+│  ├─ checkoutOverviewPage.js
+│  └─ checkoutCompletePage.js
+├─ playwright.config.js
+├─ package.json
+├─ allure-results/       (generated after running tests)
+└─ allure-report/        (generated after running allure generate)
+
+
+Key Features:
+
+Playwright: For browser automation.
+
+Page Object Model (POM): Each page has a separate class with actions & locators.
+
+Allure Reporting: Captures test execution results, screenshots, console logs, and steps.
+
+Screenshots: Automatic for failures, optional manual success screenshots.
+
+Timestamped screenshots: Ensures uniqueness and traceability.
+
+5. How to Run Tests
+
+Install project dependencies:
+
+npm install
+
+
+Run all tests:
+
+npx playwright test
+
+
+Generate Allure results and report:
+
+allure generate allure-results --clean -o allure-report
+allure open allure-report
+
+
+Check the Allure dashboard:
+
+Verify passed and failed tests
+
+Review screenshots
+
+Optionally review logs, steps, and attachments
+
+6. Allure Report Screenshots
+6.1 Test Summary
+
+Insert screenshot of Allure dashboard showing all tests passed/failed here
+
+![Allure Test Summary](screenshots/allure_summary.png)
+
+6.2 Example Success Screenshot
+
+Insert screenshot attached to Allure for a passed test
+
+![Login Success Screenshot](screenshots/login_success.png)
+
+6.3 Example Failure Screenshot
+
+Insert screenshot attached to Allure for a failed test (if any)
+
+![Login Failure Screenshot](screenshots/login_failure.png)
+
+7. Final Summary
+
+Total Test Cases Executed: 10
+
+Passed: [Insert number]
+
+Failed: [Insert number]
