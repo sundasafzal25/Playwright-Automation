@@ -1,6 +1,0 @@
---Checking Frames Count---
---Total Frames Are: 7
---Accessing Frame Using Approach 1 with URL
-Successfully Value filled in Text Field: Hey From Approach 1
---Accessing Frames using Approach 2: page.frameLocator() with Selector--
-Successfully filled input box in frame via frameLocator: Hello from approach 2
