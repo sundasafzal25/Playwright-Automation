@@ -30,6 +30,8 @@ npm install
 
 # Install Playwright browsers (Chromium, Firefox, etc.)
 npx playwright install
+```
+```bash 
 # Run all tests in headless mode (Standard)
 npx playwright test
 
@@ -38,10 +40,12 @@ npx playwright test --headed
 
 # Run a specific test file
 npx playwright test SauceDemo.spec.js
-
+```
+``` bash
 # View the standard Playwright HTML report
 npx playwright show-report
 
 # Generate and open the Allure report
 npx allure generate allure-results --clean -o allure-report
 npx allure open allure-report
+```
